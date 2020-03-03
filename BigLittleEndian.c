@@ -3,13 +3,11 @@
 main()
 {
 	unsigned char *a;
-	short int *p;
 	short int i;
 	
-	p = &i;
+	a = &i;
 	i = 256;
-	a = (unsigned char *)p;
 	
+	printf("%d\n", *a);
 	printf("%d\n", *(a+1));
-	
 }
