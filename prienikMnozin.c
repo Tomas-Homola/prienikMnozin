@@ -79,7 +79,7 @@ main()
 			}
 	}*/
 	
-	intersection(pole1, pole2, sizeof(pole1)/4, sizeof(pole2)/4, poleP);
+	intersection(pole1, pole2, sizeof(pole1)/sizeof(pole1[0]), sizeof(pole2)/sizeof(pole2[0]), poleP);
 	
 	/*for (i = 0; i < k; i++)
 	{
